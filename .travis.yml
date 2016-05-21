@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+deploy:
+  provider: npm
+  email: npm@lossless.digital
+  api_key:
+    secure: namJs71KH5TX2NLdsg+1U3t7mK6IHYQoRtNViyjdTmeTFHHrVpm22FuiDFzYgdUj2o7tLv4SzGpWLPiJbuArxq1N0IboEdnZGJhnO+71wVwnZ2DYqOBH07qcgz8BckeHS2W6w1AccgsmZzaEBTfxdG16puIT+QVRCk80hXaQtXC6S2227ZFifC0wr2Xos5Or1Q5A1AbNFhHvi0+dAi8tKhGCdA3XdLtVxY1OU61PHyC4vbsryLpT6osxBGZIOetEKBxqGTrOhgQZ5n8OHdNNElxU0x5b6h0CRGQBFmK0pet/BDG8UeLMjVsrWDhkw/PzY8fRVt1QmhAJWQS9mGztH7MlL2raiGc8p1wAlL+St8amMjthmEy0rtGAuXeeSfZ8S0dH3NumopmAhvC2SkzwUxH8WM3QqXXdptKrh7JnkZ/2gOeORRbn6RIka5WWh1EtIUekA6t0q9VERY/wyGTcZNdWIv/Wgtib+W4vnFSXyuW0L84A2AnFM99qfxc6oTqpi9EycMTUXTs4EJRnMxtbHF94GuLCnCGVF2XK7j1Dvuo/UQD16TRTkMT8sIOkKC5H/J5JAmPAyvHfDG0dVKQ/iPIqEQXJLQEv96c3PXu7CP7Rtp6ROPi06zP4BFY3Tiq1m8H+r4POzzwPc90UjdNNpZn5/Hu0Ty3G4gxsq/H3ewI=
+  on:
+    tags: true
+    repo: pushrocks/headsup

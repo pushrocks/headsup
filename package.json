@@ -1,0 +1,22 @@
+{
+  "name": "headsup",
+  "version": "1.0.0",
+  "description": "changelogs the smart way",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "(npmts)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pushrocks/headsup.git"
+  },
+  "keywords": [
+    "changelog"
+  ],
+  "author": "Lossless GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pushrocks/headsup/issues"
+  },
+  "homepage": "https://github.com/pushrocks/headsup#readme"
+}
